@@ -1,0 +1,80 @@
+body {
+    background-color: #012c3a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 40px 0 20px 0;
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 24px;
+    margin: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.all {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.course {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.1); /* yarı saydam kutu */
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    line-height: 1.6;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}
+
+.zoom {
+    background-color: rgba(255, 255, 255, 0.1); /* yarı saydam kutu */
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    max-width: 500px;
+    margin: 5px auto;
+    text-align: left;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    line-height: 1.6;
+}
